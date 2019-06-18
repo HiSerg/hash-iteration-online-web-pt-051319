@@ -14,6 +14,10 @@ def happy_birthday(birthday_kids)
 end 
 
 def age_apprpriate_birthday(birthday_kids)
-
-
+ birthday_kids = {"Timmy" => 9, "Sarah" => 6, "Amanda" => 27}
+ younger_birthday = {}
+  birthday_kids.each do |kids_name, age|
+  if age <= 12
+    younger_birthday 
+  end
 end 
