@@ -14,6 +14,7 @@ def happy_birthday(birthday_kids)
     
     else 
       false
+    end
   end
 end 
 
