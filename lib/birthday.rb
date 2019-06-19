@@ -15,7 +15,8 @@ def age_apprpriate_birthday(birthday_kids)
   birthday_kids.each do |kids_name, age|
     if age <= 12
       younger_birthday[kids_name] = age
-      
+    else
+      puts "You are to old for this."
     end
   end 
   younger_birthday.each do |kids_name, age|
